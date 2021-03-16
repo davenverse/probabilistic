@@ -1,0 +1,13 @@
+probabilistic
+Copyright 2021 Christopher Davenport
+Licensed under the MIT license (see LICENSE)
+
+This software contains portions of code derived from guava-probably
+https://github.com/bdupras/guava-probably
+Copyright (C) 2015 Brian Dupras
+Licensed under Apache License 2.0 (licenses/apache)
+
+This software contains portions of code derived from hollow
+https://github.com/Netflix/hollow
+Copyright (C) 2016-2019 Netflix, Inc.
+Licensed under Apache License 2.0 (licenses/apache)
