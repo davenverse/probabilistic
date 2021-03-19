@@ -285,7 +285,7 @@ class ThreadSafeBitSet private (
     val longs = new scala.collection.mutable.ListBuffer[Long]()
     var ordinal = nextSetBit(0)
     while(ordinal != -1L){
-      longs.addOne(ordinal)
+      longs :+ ordinal
       ordinal = nextSetBit(ordinal + 1)
     }
     "ThreadSafeBitSet(" ++ longs.mkString(",") + ")"

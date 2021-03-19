@@ -89,7 +89,7 @@ object CuckooTable {
     var position = 0
     while (number != 0){
       if ((number & 1) != 0) {
-        buffer.addOne(position)
+        buffer :+ position
       }
       position += 1
       number = number >>> 1
